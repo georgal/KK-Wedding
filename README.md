@@ -1,4 +1,4 @@
 # KK-Wedding
 online invitation - rsvp
 
-https://georgal.github.io/KK-Wedding/
+https://georgal.github.io/KK-Wedding/index.html
