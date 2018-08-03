@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono">
 <style>
+	body{background-color:f1e0e0;}
 body,h1,h2{font-family: "Raleway", sans-serif}
 .w3bo{font-family: "Fira Mono";margin-top:-15px;}
 .w4bo{font-family: "Fira Mono";}
@@ -25,6 +26,8 @@ p {line-height: 2}
 }
 .bgimg {background-image: url("download.jpeg")}
 .bgimg2 {background-image: url("flowers.jpg")}
+	
+	#rsvp{background-color: #F1E0E0;}
 	
 	@media only screen and (max-width: 600px) {
     
@@ -73,7 +76,7 @@ p {line-height: 2}
 <!-- Background photo -->
 <div class="w3-display-container bgimg2">
   <div class="w3-display-middle w3-text-white w3-center">
-    <h2 class="w3-center w4bo w3-bar "><span style="background-color: rgba(0,0,0,0.4);">Είστε Καλεσμένοι!</span></h2><br>
+    <h2 class="w3-center w4bo w3-bar "><span style="background-color: rgba(0,0,0,0.3);">Είστε Καλεσμένοι!</span></h2><br>
   </div>
 </div>
 
@@ -84,21 +87,21 @@ p {line-height: 2}
 	      <div class="w3-row">
       <div class="w3-half">
         <p class="w4bo">Γαμήλια Τελετή - 19:00</p>
-        <p class="w4bo">Γαμήλια Δεξίωση</p>
+		<p class="w4bo"><a onclick="document.getElementById('id02').style.display='block'" style="text-decoration: underline;">Ιερός Ναός Κοιμήσεως της Θεοτόκου</a></p>     
       </div>
       <div class="w3-half">
-		  <p class="w4bo"><a onclick="document.getElementById('id02').style.display='block'" style="text-decoration: underline;">Ιερός Ναός Κοιμήσεως της Θεοτόκου</a></p>
+		<p class="w4bo">Γαμήλια Δεξίωση</p>  
         <p class="w4bo"><a onclick="document.getElementById('id03').style.display='block'" style="text-decoration: underline;">Κτήμα Μειμαρίδη</a></p>
       </div>
-	<img class="w3-round w3-grayscale-min w3-pale-red" src="g12.png" style="width:30%;margin:32px 0">
     </div>
   </div>
+	<img class="w3-round w3-grayscale-min w3-pale-red" src="g12.png" style="width:30%;margin:32px 0">
 </div>
 	
 	
 
 <!-- RSVP section -->
-<div class="w3-container w3-pale-red w3-center w3-wide" id="rsvp">
+<div class="w3-container w3-center w3-wide" id="rsvp">
   <h2 class="w4bo">Ελπίζουμε να σας δούμε!</h2>
   <p class="w3-medium w4bo">Σε περίπτωση απουσίας σας, παρακαλούμε ενημερώστε μας έως τις 20/9</p>
   <p class="w3-large" style="margin-bottom:120px; margin-top:60px;">
@@ -117,10 +120,10 @@ p {line-height: 2}
       <p><i>Με εκτίμηση, Κωσταντίνος - Κατερίνα</i></p>
       <div class="w3-row">
         <div class="w3-half">
-          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-blue">Φυσικά</button>
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-pale-red">Φυσικά</button>
         </div>
         <div class="w3-half">
-          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Χμμ..</button>
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-pink">Χμμ..</button>
         </div>
       </div><br>
 		<a type="button" class="w3-button " onclick="document.getElementById('id01').style.display='none'" style="margin-bottom:5px;">Κλείσιμο</a><br>
